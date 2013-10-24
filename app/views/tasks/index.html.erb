@@ -1,3 +1,4 @@
+<% provide(:title, 'Tasks') %>
 <h1>Listing tasks</h1>
 
 <table>
@@ -22,8 +23,8 @@
       <tr>
         <td><%= task.name %></td>
         <td><%= task.day_id %></td>
-        <td><%= task.start_time %></td>
-        <td><%= task.end_time %></td>
+        <td><%= task.start_time.strftime('%a, %b %d, %Y %l:%M%p') %></td>
+        <td><%= task.end_time.strftime('%a, %b %d, %Y %l:%M%p') %></td>
         <td><%= task.category %></td>
         <td><%= task.comment %></td>
         <td><%= task.priority %></td>
