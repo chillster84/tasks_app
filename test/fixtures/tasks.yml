@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  day_id: 1
+  time: 2013-10-24 11:53:40
+  category: MyString
+  comment: MyString
+  priority: 1
+  completion: 1
+
+two:
+  name: MyString
+  day_id: 1
+  time: 2013-10-24 11:53:40
+  category: MyString
+  comment: MyString
+  priority: 1
+  completion: 1
