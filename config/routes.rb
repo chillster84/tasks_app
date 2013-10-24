@@ -1,4 +1,6 @@
 TasksApp::Application.routes.draw do
+  get "static_pages/calendar"
+  get "static_pages/todo_list"
   resources :tasks
 
   resources :days
